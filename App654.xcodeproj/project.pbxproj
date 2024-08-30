@@ -22,7 +22,6 @@
 		786258622C331B4300CF6AB5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786258612C331B4300CF6AB5 /* TabBar.swift */; };
 		786258642C331B4C00CF6AB5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786258632C331B4C00CF6AB5 /* CoreDataStack.swift */; };
 		786258662C331B5300CF6AB5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786258652C331B5300CF6AB5 /* Array.swift */; };
-		786258692C331B5E00CF6AB5 /* CoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 786258672C331B5E00CF6AB5 /* CoreModel.xcdatamodeld */; };
 		7862586E2C331B8B00CF6AB5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862586D2C331B8B00CF6AB5 /* SettingsView.swift */; };
 		786258702C331B9500CF6AB5 /* ParticipantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862586F2C331B9500CF6AB5 /* ParticipantsView.swift */; };
 		786258722C331BA300CF6AB5 /* CompetitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786258712C331BA300CF6AB5 /* CompetitionsView.swift */; };
@@ -33,6 +32,7 @@
 		786258802C332D0500CF6AB5 /* EventsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862587F2C332D0500CF6AB5 /* EventsDetail.swift */; };
 		786258832C33502800CF6AB5 /* AddParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786258822C33502800CF6AB5 /* AddParticipant.swift */; };
 		786258862C34413F00CF6AB5 /* PartDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786258852C34413F00CF6AB5 /* PartDetail.swift */; };
+		F97AC2ED2C81FF8700B7DEFB /* CoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F97AC2EB2C81FF8700B7DEFB /* CoreModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +53,6 @@
 		786258612C331B4300CF6AB5 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		786258632C331B4C00CF6AB5 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		786258652C331B5300CF6AB5 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		786258682C331B5E00CF6AB5 /* CoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreModel.xcdatamodel; sourceTree = "<group>"; };
 		7862586D2C331B8B00CF6AB5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7862586F2C331B9500CF6AB5 /* ParticipantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsView.swift; sourceTree = "<group>"; };
 		786258712C331BA300CF6AB5 /* CompetitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsView.swift; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		7862587F2C332D0500CF6AB5 /* EventsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDetail.swift; sourceTree = "<group>"; };
 		786258822C33502800CF6AB5 /* AddParticipant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParticipant.swift; sourceTree = "<group>"; };
 		786258852C34413F00CF6AB5 /* PartDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartDetail.swift; sourceTree = "<group>"; };
+		F97AC2EC2C81FF8700B7DEFB /* CoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 			children = (
 				786258632C331B4C00CF6AB5 /* CoreDataStack.swift */,
 				786258652C331B5300CF6AB5 /* Array.swift */,
-				786258672C331B5E00CF6AB5 /* CoreModel.xcdatamodeld */,
+				F97AC2EB2C81FF8700B7DEFB /* CoreModel.xcdatamodeld */,
 				7862587C2C33240C00CF6AB5 /* DateConvert.swift */,
 			);
 			path = Extensions;
@@ -350,11 +350,11 @@
 				786258722C331BA300CF6AB5 /* CompetitionsView.swift in Sources */,
 				786258802C332D0500CF6AB5 /* EventsDetail.swift in Sources */,
 				786258762C331DD300CF6AB5 /* CompetitionsViewModel.swift in Sources */,
+				F97AC2ED2C81FF8700B7DEFB /* CoreModel.xcdatamodeld in Sources */,
 				7862587B2C33202E00CF6AB5 /* AddEvent.swift in Sources */,
 				786258662C331B5300CF6AB5 /* Array.swift in Sources */,
 				7862587D2C33240C00CF6AB5 /* DateConvert.swift in Sources */,
 				786258702C331B9500CF6AB5 /* ParticipantsView.swift in Sources */,
-				786258692C331B5E00CF6AB5 /* CoreModel.xcdatamodeld in Sources */,
 				786258542C331ABF00CF6AB5 /* LoadingView.swift in Sources */,
 				786258622C331B4300CF6AB5 /* TabBar.swift in Sources */,
 			);
@@ -579,14 +579,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		786258672C331B5E00CF6AB5 /* CoreModel.xcdatamodeld */ = {
+		F97AC2EB2C81FF8700B7DEFB /* CoreModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				786258682C331B5E00CF6AB5 /* CoreModel.xcdatamodel */,
+				F97AC2EC2C81FF8700B7DEFB /* CoreModel.xcdatamodel */,
 			);
-			currentVersion = 786258682C331B5E00CF6AB5 /* CoreModel.xcdatamodel */;
+			currentVersion = F97AC2EC2C81FF8700B7DEFB /* CoreModel.xcdatamodel */;
 			name = CoreModel.xcdatamodeld;
-			path = /Users/igor/Documents/Applications/App654/App654/Project/Extensions/CoreModel.xcdatamodeld;
+			path = /Users/slava/Desktop/App654/App654/Project/Extensions/CoreModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
