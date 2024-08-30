@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="EventModel" representedClassName="EventModel" syncable="YES" codeGenerationType="class">
+        <attribute name="evDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="evDescr" optional="YES" attributeType="String"/>
+        <attribute name="evName" optional="YES" attributeType="String"/>
+        <attribute name="evNote" optional="YES" attributeType="String"/>
+        <attribute name="evPhoto" optional="YES" attributeType="String"/>
+        <attribute name="evTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ParticipantModel" representedClassName="ParticipantModel" syncable="YES" codeGenerationType="class">
+        <attribute name="parAge" optional="YES" attributeType="String"/>
+        <attribute name="parEx" optional="YES" attributeType="String"/>
+        <attribute name="parName" optional="YES" attributeType="String"/>
+        <attribute name="parNote" optional="YES" attributeType="String"/>
+        <attribute name="parPhoto" optional="YES" attributeType="String"/>
+        <attribute name="parSpec" optional="YES" attributeType="String"/>
+        <attribute name="parStatus" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PartModel" representedClassName="PartModel" syncable="YES" codeGenerationType="class">
+        <attribute name="partEvent" optional="YES" attributeType="String"/>
+        <attribute name="partName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
